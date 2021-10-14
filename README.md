@@ -78,4 +78,4 @@ yarn dev
 
 ## Enjoy
 
-This is a simple application with `fetch API` and some hooks like a `useEffect` and `useState`.
+This is a simple `react js` spa application with `fetch API` and some hooks like a `useEffect` and `useState`.
