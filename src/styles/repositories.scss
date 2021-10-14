@@ -1,0 +1,76 @@
+section.repository-list {
+	.input-group {
+		display: flex;
+		gap: 0.25rem;
+		align-items: center;
+
+		background: #fff;
+		font-size: 16px;
+		margin-bottom: 30px;
+
+		input {
+			flex: 1;
+			background: var(--background);
+			border: 0;
+			color: var(--text);
+			padding: 12px 24px;
+
+			border-radius: 8px;
+			border: 0;
+
+			&::placeholder {
+				color: var(--text-light);
+			}
+		}
+
+		button {
+			font-weight: 600;
+			border-radius: 8px;
+			border: 0;
+			background: var(--green);
+			color: #fff;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+
+			padding: 14px;
+			transition: filter 0.2s;
+
+			&:hover {
+				filter: brightness(0.95);
+				cursor: pointer;
+			}
+		}
+	}
+
+	margin: 40px;
+
+	h1 {
+		margin-bottom: 16px;
+	}
+
+	ul {
+		list-style: none;
+
+		li {
+			& + li {
+				margin-top: 20px;
+				padding-top: 20px;
+				border-top: 1px solid #eee;
+			}
+
+			p {
+				font-size: 14px;
+				color: #444;
+				margin-top: 8px;
+			}
+
+			a {
+				display: inline-block;
+				margin-top: 16px;
+				text-decoration: none;
+				color: var(--blue);
+			}
+		}
+	}
+}
